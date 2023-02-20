@@ -33,3 +33,7 @@ insert into employee(`first_name`, `last_name`, `role_id`) values
 ('Yuuka','Kaneko', 8),
 ('Naila','Uchimura', 8),
 ('Irfan','Nishitani', 9);
+
+select * from department;
+select * from role;
+select * from employee;

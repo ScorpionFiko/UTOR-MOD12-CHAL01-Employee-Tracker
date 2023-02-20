@@ -30,7 +30,7 @@ Repository containing the code for the Employee Tracker application. This is a s
 
 The application runs in a continuous loop until the user decides to "exit application" by selecting it from the menu. The user can choose to go back and forth between the various menus and execute commands from those menus. 
 
-In addition, the user is asked to enter their correct MySQL credentials prior to continuing with the aplication. Otherwise, the user will be asked again.
+In addition, the user is asked to enter their correct MySQL credentials prior to continuing with the aplication. Otherwise, the user will be asked again. However, the application assumes that the MySQL host is "localhost" and the database is "employeetracker_db."
 
 Below is the image of the application
 ![Command Line Interface](./assets/images/ET-01-user-menus.png)
@@ -45,13 +45,19 @@ Below is the image of the application after the user has selected to view data f
 - [Functionality](#functionality)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Tests](#tests)
 - [License](#license)
+- [Walktrough](#walkthrough)
+- [Future Development](#future-development)
 
 ## Installation
 
 PRE-Requisites: 
 - you must have node.js version 16.* installed on your computer prior to proceeding
 - you must have MySQL/MariaDB installed on your computer prior to proceeding
+
+back to [Table of Contents](#table-of-contents)
+
 
 ### Databse setup
 This must be executed before launching the application
@@ -70,6 +76,8 @@ This must be executed before launching the application
 ```md
         $ npm install
 ```
+
+back to [Table of Contents](#table-of-contents)
 
 
 ## Functionality
@@ -94,6 +102,8 @@ This is a command line application where user input can be questionable. As such
 Aside from that, the command line is set up in a series of menus that the user can navigate to and from. The user can quit by clicking the "Exit Application" menu option which is available at all menus.
 
 
+back to [Table of Contents](#table-of-contents)
+
 ## Usage
 
 For accessing the application:<br>
@@ -106,25 +116,36 @@ For accessing the application:<br>
 3. Provide your MySQL credentials
 4. Go through the menus and answer any prompt inputs as necessary
 
+back to [Table of Contents](#table-of-contents)
+
 
 ## Credits
-- Android Web Devloper codelabs for the introduction to Singleton pattern to prevent having multiple instances of the same class being used inside the application. This is necessary in particular for database operations to prevent users to perform multiple operations at once. ![link](https://developer.android.com/codelabs/android-room-with-a-view-kotlin#7)
+- Android Web Devloper codelabs for the introduction to Singleton pattern to prevent having multiple instances of the same class being used inside the application. This is necessary in particular for database operations to prevent users to perform multiple operations at once. [link](https://developer.android.com/codelabs/android-room-with-a-view-kotlin#7)
 
-- STackoverflow for the way to implement the Singleton patter in JavaScript ![link](https://stackoverflow.com/questions/1479319/simplest-cleanest-way-to-implement-a-singleton-in-javascript)
+- STackoverflow for the way to implement the Singleton patter in JavaScript [link](https://stackoverflow.com/questions/1479319/simplest-cleanest-way-to-implement-a-singleton-in-javascript)
+
+back to [Table of Contents](#table-of-contents)
+
 
 ## Tests
 
 All tests have been performed manually as the application requires user input.
+
+back to [Table of Contents](#table-of-contents)
 
 
 ## License
 
 Please refer to the LICENSE in the repo.
 
+back to [Table of Contents](#table-of-contents)
+
 
 ## Walkthrough
 
 - Application walkthrough: TBD 
+
+back to [Table of Contents](#table-of-contents)
 
 
 ## Future Development
@@ -133,3 +154,4 @@ Here are some of the items to be considered for future development.
 1. Add "cancel" option to stop the user from updating or deleting a particular item
 2. Remove the selected employee from the list of "managers". When updating an employee manager, the user can select the same employee. 
 
+back to [Table of Contents](#table-of-contents)
