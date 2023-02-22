@@ -143,7 +143,7 @@ back to [Table of Contents](#table-of-contents)
 
 ## Walkthrough
 
-- Application walkthrough: TBD 
+- Application walkthrough: https://youtu.be/CZ9-2WF_Z-o 
 
 back to [Table of Contents](#table-of-contents)
 

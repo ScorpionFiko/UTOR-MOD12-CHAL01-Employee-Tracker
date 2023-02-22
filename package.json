@@ -1,33 +1,31 @@
 {
-  "name": "utor-mod10-chal01-logo-generator",
+  "name": "utor-mod12-chal01-employee-tracker",
   "version": "1.0.0",
-  "description": "Applicatoin that generates SVG file based on user input",
+  "description": "Applicatoin that tracks employees, departments, and roles",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest"
+    "start": "node index.js"
   },
   "dependencies": {
     "inquirer": "^8.2.4",
     "mysql2":"^2.2.5",
     "console.table":"^0.10.0"
   },
-  "devDependencies": {
-    "jest": "^28.1.3"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ScorpionFiko/UTOR-MOD10-CHAL01-Logo-Generator.git"
+    "url": "git+https://github.com/ScorpionFiko/UTOR-MOD12-CHAL01-Employee-Tracker.git"
   },
   "keywords": [
     "node",
-    "svg",
-    "logo"
+    "inquirer",
+    "mysql2",
+    "console.table",
+    "command line application"
   ],
   "author": "Stefan Marinov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ScorpionFiko/UTOR-MOD10-CHAL01-Logo-Generator/issues"
+    "url": "https://github.com/ScorpionFiko/UTOR-MOD12-CHAL01-Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/ScorpionFiko/UTOR-MOD10-CHAL01-Logo-Generator#readme"
+  "homepage": "https://github.com/ScorpionFiko/UTOR-MOD12-CHAL01-Employee-Tracker#readme"
 }

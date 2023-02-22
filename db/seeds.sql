@@ -12,27 +12,28 @@ insert into role(`title`, `salary`, `department_id`) values
 ('councel', 100000, 3);
 
 insert into employee(`first_name`, `last_name`, `role_id`) values 
-('Shanae', 'Abner', 1),
-('Tatenda', 'Iyabo', 1),
-('Ioan', 'Zornitsa', 1),
-('Junko','Kurō', 1),
-('Rauf','Yara', 1),
-('Oualid','Solomiya', 2),
-('Ziya', 'ad-Din Iseul', 2),
-('Tsubame','Sherazi', 7),
-('Harumi','Bousaid', 6),
-('Tomislav','Sanada', 6),
-('Ivet','Yamasaki', 5),
-('Makara','Kawasaki', 5),
-('Sawsan','Sano', 5),
-('Nour','Zhivkov', 4),
-('Nadira','Furnadjiev', 4),
-('Husayn','Higashi', 4),
-('Kōji','Asanuma', 4),
-('Shadya','Ognianov', 8),
 ('Yuuka','Kaneko', 8),
+('Shanae', 'Abner', 1),
+('Oualid','Solomiya', 2),
+('Tatenda', 'Iyabo', 1),
+('Tomislav','Sanada', 6),
+('Ioan', 'Zornitsa', 1),
+('Makara','Kawasaki', 5),
+('Shadya','Ognianov', 8),
+('Junko','Kurō', 1),
+('Sawsan','Sano', 5),
+('Rauf','Yara', 1),
+('Ziya', 'ad-Din Iseul', 2),
+('Nadira','Furnadjiev', 4),
+('Irfan','Nishitani', 9),
+('Tsubame','Sherazi', 7),
+('Husayn','Higashi', 4),
+('Harumi','Bousaid', 6),
+('Ivet','Yamasaki', 5),
+('Nour','Zhivkov', 4),
+('Kōji','Asanuma', 4),
 ('Naila','Uchimura', 8),
-('Irfan','Nishitani', 9);
+('Haika','Larka', 3);
 
 select * from department;
 select * from role;
